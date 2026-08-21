@@ -137,7 +137,7 @@
         /* Hero / Header Background Image Section Styling with .jpg extension placeholder */
         .hero-section {
             position: relative;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('/brewing-tools-images/hero-bg2.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('toyo-cafe-Store-Front-DEMO-/brewing-tools-images/hero-bg2.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
