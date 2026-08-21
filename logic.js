@@ -1,5 +1,5 @@
 // REPLACE THIS with your deployed Google Apps Script Web App URL
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbysnjg5eV2fH9OYg47gdqJnf944zJMeNELtrm1I0gzp3CSK9QA9ds9Fb1xGZ9KagOtLOg/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxtlfFLTK1hPwfk7UARg0wsc2pyFBrDtCu7byqt2yiZSLnPSUutOEJmnql9eOlNd6TF/exec";
 
 let cart = [];
 let lastSubmissionTime = 0;
