@@ -1,5 +1,5 @@
 // REPLACE THIS with your deployed Google Apps Script Web App URL
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxKMvKN4d3IcaR1Ze1k9heAMVlniOSklUmnKYNxod4zP-QGHVZ1mqSz_XCRc-wRw8PZaA/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw5LGlA6CUBLwAK1Dpp2qOdqYxrYL2t6xFbStZrwk0nUPKeh2q-xKe7SMYjcDv91QZ_Wg/exec";
 
 
 let cart = [];
