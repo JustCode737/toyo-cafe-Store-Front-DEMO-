@@ -1,5 +1,5 @@
 // REPLACE THIS with your deployed Google Apps Script Web App URL
-const SCRIPT_URL = "https://script.google.com/macros/library/d/1oxnRpy4OMk-uQrji_z4oFxwmp1hmPO-27HPoO1WzXR4YoT8sWw1p2t7Q/2";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw5LGlA6CUBLwAK1Dpp2qOdqYxrYL2t6xFbStZrwk0nUPKeh2q-xKe7SMYjcDv91QZ_Wg/exec";
 
 let cart = [];
 let lastSubmissionTime = 0;
@@ -196,12 +196,14 @@ async function handleCheckoutSubmit(event) {
     };
 
     try {
-        await fetch(SCRIPT_URL, {
+        const response = await fetch(SCRIPT_URL, {
             method: 'POST',
-            mode: 'no-cors',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
             body: JSON.stringify(payload)
         });
+
+        const result = await response.json();
+        console.log("Server response:", result);
 
         alert('Order placed successfully! Thank you.');
         cart = [];
