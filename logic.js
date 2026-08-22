@@ -1,6 +1,7 @@
 // REPLACE THIS with your deployed Google Apps Script Web App URL
 const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxKMvKN4d3IcaR1Ze1k9heAMVlniOSklUmnKYNxod4zP-QGHVZ1mqSz_XCRc-wRw8PZaA/exec";
 
+
 let cart = [];
 let lastSubmissionTime = 0;
 const COOLDOWN_PERIOD = 10000; // 10-second cooldown between orders
